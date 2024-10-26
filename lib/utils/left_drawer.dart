@@ -1,5 +1,6 @@
 import 'package:ecommerce_site/constants/color_palette.dart';
 import 'package:ecommerce_site/screens/home.dart';
+import 'package:ecommerce_site/screens/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -90,6 +91,8 @@ class _DrawerState extends State<LeftDrawer> {
               onTap: () {
                 setState(() {});
                 Navigator.pop(context);
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ProfileScreen()));
               },
               val: isHover[2],
               onHover: (hover) {
