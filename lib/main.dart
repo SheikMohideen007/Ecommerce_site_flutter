@@ -1,5 +1,6 @@
 import 'package:ecommerce_site/screens/home.dart';
 import 'package:ecommerce_site/screens/profile.dart';
+import 'package:ecommerce_site/screens/sea_fish_details.dart';
 import 'package:ecommerce_site/screens/seafish_category.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           textTheme: GoogleFonts.mulishTextTheme()),
       debugShowCheckedModeBanner: false,
-      home: SeafishCategory(),
+      home: SeaFishDetails(),
     );
   }
 }
